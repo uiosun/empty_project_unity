@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using _Common;
+using F8Framework.F8ExcelTool;
 using Index;
 using UnityEngine;
 
@@ -29,6 +30,16 @@ public class UIManager : MonoBehaviour
         }
 
         instance = this;
+        if (isDebug)
+        {
+            ReadExcel.Instance.LoadAllExcelData(); // 运行时加载所有配置
+        }
+        else
+        {
+            F8DataManager.Instance.LoadAll(); // 加载所有配置
+        }
+        
+        Debug.Log(F8DataManager.Instance.GetSheet1ByID(1).name1);
         
         QualitySettings.vSyncCount = 0;  // VSync must be disabled
         Application.targetFrameRate = 45;

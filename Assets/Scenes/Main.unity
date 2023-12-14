@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: {fileID: 897082829}
-  clip: {fileID: 8300000, guid: b7bb2aa2154c5a644a65ffdd5b154471, type: 3}
+  goGameClip: {fileID: 8300000, guid: b7bb2aa2154c5a644a65ffdd5b154471, type: 3}
 --- !u!114 &900790577
 MonoBehaviour:
   m_ObjectHideFlags: 0

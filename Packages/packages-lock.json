@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.tippinggame.f8exceltool": {
+      "version": "https://github.com/TippingGame/F8ExcelTool.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d4a8f7e597a8a7042076bc610cafcd4b89eeed39"
+    },
+    "com.tippinggame.f8framework": {
+      "version": "https://github.com/TippingGame/F8Framework.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cb086ab05e0f0fce9ef954399be135c4cf8d2414"
+    },
     "com.unity.2d.animation": {
       "version": "9.0.4",
       "depth": 1,

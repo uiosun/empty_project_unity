@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using _Data;
+using F8Framework.F8ExcelTool;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Events;
@@ -39,6 +40,8 @@ public class GameManager : MonoBehaviour
             return;
         }
         instance = this;
+        
+        Debug.Log(F8DataManager.Instance.GetSheet1ByID(1).name1);
         InitConfig();
         InitGame();
         

@@ -24,11 +24,11 @@ and `.gitignore` / `README.md` file, set manager "Script Execution Order".
 
 ## Dependence
 
-- [穿山甲广告/CSJ Advertisement](https://www.csjplatform.com/) using 5.6.0.0 version.
 - [Lean Localization/精益本地化](https://carloswilkes.com/Documentation/LeanLocalization) using 2.0.3 version.
+- [Excel 配置读取器/F8ExcelTool](https://github.com/TippingGame/F8ExcelTool) using "master" branch.
+- [穿山甲广告/CSJ Advertisement](https://www.csjplatform.com/) using 5.6.0.0 version.
 
 ## TODO list
 
-- SoundManager not active.
 - ADManager not active.
 - Prefab Text must replace use TMP_Text (WTH of Unity UI upgrade...more and more).
