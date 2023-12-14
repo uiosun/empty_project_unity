@@ -6,6 +6,7 @@ namespace Index
     public class IndexPanel : MonoBehaviour
     {
         public TMP_Text version;
+        public AudioClip goGameClip;
 
         private void Start()
         {
@@ -16,6 +17,8 @@ namespace Index
         // 开始游戏
         public void GoGame(bool needLoad)
         {
+            SoundManager.instance.PlaySingle(goGameClip);
+            
             if (needLoad)
             {
                 needLoad = GameManager.instance.LoadGame();
