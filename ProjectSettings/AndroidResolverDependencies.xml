@@ -1,0 +1,32 @@
+<dependencies>
+  <packages>
+    <package>com.android.support:appcompat-v7:28.0.0</package>
+    <package>com.android.support:support-v4:28.0.0</package>
+    <package>com.pangle.cn:mediation-admob-adapter:17.2.0.49</package>
+    <package>com.pangle.cn:mediation-baidu-adapter:9.3223.0</package>
+    <package>com.pangle.cn:mediation-gdt-adapter:4.542.1412.0</package>
+    <package>com.pangle.cn:mediation-klevin-adapter:2.11.0.3.11</package>
+    <package>com.pangle.cn:mediation-ks-adapter:3.3.53.0</package>
+    <package>com.pangle.cn:mediation-mintegral-adapter:16.4.47.4</package>
+    <package>com.pangle.cn:mediation-sigmob-adapter:4.12.7.0</package>
+    <package>com.pangle.cn:mediation-unity-adapter:4.3.0.17</package>
+  </packages>
+  <files />
+  <settings>
+    <setting name="androidAbis" value="armeabi-v7a" />
+    <setting name="bundleId" value="com.DefaultCompany.empty_project_unity" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useFullCustomMavenRepoPathWhenExport" value="True" />
+    <setting name="useFullCustomMavenRepoPathWhenNotExport" value="False" />
+    <setting name="useJetifier" value="True" />
+  </settings>
+</dependencies>
