@@ -19,6 +19,10 @@ The project include:
   - UIManager: control user interface when to global logical
   - SoundManager: control music and effect sound
   - ADManager: control advertisement logical
+- Assets
+  - StreamingAssets
+    - config
+      - config.xlsx: **Game designer's config file**
 
 and `.gitignore` / `README.md` file, set manager "Script Execution Order".
 
